@@ -1,0 +1,138 @@
+:root {
+    --primary-color: #ec008c;
+}
+
+:root {
+    --wp-admin-theme-color: #007cba;
+    --wp-admin-theme-color-darker-10: #006ba1;
+    --wp-admin-theme-color-darker-20: #005a87;
+    --wp-admin-border-width-focus: 2px;
+}
+
+:root {
+    --woocommerce: #a46497;
+    --wc-green: #7ad03a;
+    --wc-red: #a00;
+    --wc-orange: #ffba00;
+    --wc-blue: #2ea2cc;
+    --wc-primary: #a46497;
+    --wc-primary-text: white;
+    --wc-secondary: #ebe9eb;
+    --wc-secondary-text: #515151;
+    --wc-highlight: #77a464;
+    --wc-highligh-text: white;
+    --wc-content-bg: #fff;
+    --wc-subtext: #767676;
+}
+
+
+
+#footer.footer-wrapper {
+    width: 100%;
+    position: relative;
+    background-color: #252525;
+    
+    span.widget-title {
+        font-size: 1em;
+        font-weight: 600;
+        text-transform: none;
+        color: #f1f1f1;
+
+        .is-divider-small{
+            background-color: rgba(250, 248, 248, 0.3);
+            height: 3px;
+            font-size: 85%;
+            
+
+            .menu-footer-container{
+                
+                #menu-footer.menu{
+                    .item{
+                        list-style-type: none;
+                    }
+                }
+            }
+        }
+       
+    }
+    
+
+    .p1 {
+        color: #f1f1f1;
+        font-size: medium;
+    }
+    
+    .fade{
+        font-size: .85em;
+        color: #4d4848;
+        text-shadow: 0 0 10px ;
+    }
+
+    .bot-last{
+        padding: 20px 340px ;
+    }
+}
+
+
+// .footer-1 {
+//     background-color: #252525;
+//     border-top: 1px solid rgba(0, 0, 0, .05);
+// }
+
+// .footer {
+//     padding: 30px 0 0;
+
+//     .dark {
+//         color: #f1f1f1;
+//     }
+
+//     .mb-0 {
+//         margin-bottom: 0 !important;
+//     }
+
+//     .row {
+//         width: 100%;
+//         -js-display: flex;
+//         display: -webkit-box;
+//         display: -ms-flexbox;
+//         display: flex;
+//         -webkit-box-orient: horizontal;
+//         -webkit-box-direction: normal;
+//         -ms-flex-flow: row wrap;
+//         flex-flow: row wrap;
+//         max-width: 1080px;
+//         margin-left: auto;
+//         margin-right: auto;
+
+
+//         #nav_menu-5 {
+//             .large-columns-2>.col {
+//                 max-width: 50%;
+//                 flex-basis: 50%;
+//             }
+
+//             .widget {
+//                 margin-bottom: 1.5em;
+//             }
+
+//             .pb-0 {
+//                 padding-bottom: 0 !important;
+//             }
+
+//             .col {
+//                 position: relative;
+//                 margin: 0;
+//                 padding: 0 15px 30px;
+//                 width: 100%;
+
+//                 span.widget-title {
+//                     font-size: 1em;
+//                     font-weight: 600;
+//                     text-transform: none;
+//                 }
+
+//             }
+//         }
+
+//     }
+// }
